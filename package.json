@@ -1,0 +1,14 @@
+{
+  "name": "mindmap",
+  "version": "1.0.0",
+  "description": "mindmap for the whole project",
+  "main": "index.js",
+  "keywords": [
+    "mindmap",
+    "nomnoml"
+  ],
+  "dependencies": {
+    "nomnoml": "0.2.0"
+  },
+  "author": "Fazreil Amreen"
+}
