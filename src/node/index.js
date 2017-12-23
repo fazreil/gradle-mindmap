@@ -6,8 +6,6 @@ var fs = require('fs');
 var mindMapFile = './src/node/mindmap.nomnoml';
 var outputFile = './src/node/mindmap.svg';
 
-var src = "#author: fazreil";
-
 function genMindMap(savPath, srcPath) {
     fs.readFile(srcPath, 'utf8', function (err, data) {
             if (err) throw err;
@@ -19,4 +17,4 @@ function genMindMap(savPath, srcPath) {
         });
 }
 
-genMindMap(outputFile,mindMapFile);
+genMindMap('./src/node/mindmap.svg','./src/node/mindmap.nomnoml');

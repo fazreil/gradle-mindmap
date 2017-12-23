@@ -1,4 +1,4 @@
 #direction: top
 
-[idea] -> [idea1]
-[idea2] <- [idea]
+[ideaX] -> [idea1]
+[idea2] <- [ideaX]
