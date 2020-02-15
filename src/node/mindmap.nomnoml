@@ -2,3 +2,4 @@
 
 [ideaX] -> [idea1]
 [idea2] <- [ideaX]
+[idea3] -> [ideaX]
